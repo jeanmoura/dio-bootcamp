@@ -1,8 +1,53 @@
+.photo {
+    border: 1px solid #505050;
+    border-radius: 50%;
+    width: 10%;
+}
+
+body {
+    background-color: #ccc;
+}
+
 #title, .subtitle, .post_title {
-    color:goldenrod;
+    color:#50505;
 }
 
 .post_title {
     font-size: 15px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    border-radius: 5px 10px;
+    background: #FFF;
+    padding: 15px;
+    border: 4px solid #505050;
+    /*
+    border-top: 4px dotted green;
+    border-right: 4px dashed pink;
+    */
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+
+}
+
+.post_image {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#title {
+    font-family: Calibri Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.post_title {
+    font-family: Calibri, Verdana, Geneva, Tahoma, sans-serif;
 }
